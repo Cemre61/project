@@ -1,5 +1,6 @@
 html, body {
      height: 100%;
+     font-family: 'Cabin', sans-serif;
 }
 
 .background{
@@ -65,11 +66,8 @@ ul.wrapper {
 }
 
 #videos{
-<<<<<<< HEAD
-=======
     margin-left: 10%;
     width: 80%;
->>>>>>> cee750d3f59a1ad490880597c0d0f947d49906d0
     text-align: center;
     padding-bottom: 10px;
 }
@@ -133,7 +131,6 @@ table {
 	margin-top: -20px;
 	width: 200px;
 }
-<<<<<<< HEAD
 
 #contact {
     width:414px;
@@ -151,7 +148,7 @@ input {
 }
 
 input,textarea {
-    width:288px;
+    width:250px;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
     border-radius:3px;
@@ -184,13 +181,6 @@ input,textarea {
     margin-left:7px;
 }
 
-label.required:after { 
-    content:'*';
-    color:red;
-}
-
 .row {
     margin:5px;
 }
-=======
->>>>>>> cee750d3f59a1ad490880597c0d0f947d49906d0
