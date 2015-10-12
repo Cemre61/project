@@ -65,6 +65,11 @@ ul.wrapper {
 }
 
 #videos{
+<<<<<<< HEAD
+=======
+    margin-left: 10%;
+    width: 80%;
+>>>>>>> cee750d3f59a1ad490880597c0d0f947d49906d0
     text-align: center;
     padding-bottom: 10px;
 }
@@ -128,6 +133,7 @@ table {
 	margin-top: -20px;
 	width: 200px;
 }
+<<<<<<< HEAD
 
 #contact {
     width:414px;
@@ -186,3 +192,5 @@ label.required:after {
 .row {
     margin:5px;
 }
+=======
+>>>>>>> cee750d3f59a1ad490880597c0d0f947d49906d0

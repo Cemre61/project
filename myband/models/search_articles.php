@@ -10,4 +10,8 @@ $search_result = $mysqli->query($sql);
 
 $search_result = resultToArray($search_result);
 
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> cee750d3f59a1ad490880597c0d0f947d49906d0
