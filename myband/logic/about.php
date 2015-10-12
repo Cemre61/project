@@ -1,5 +1,5 @@
 <div class="background">
-    Aan deze pagina word er nog gewerkt<br>
+    pagina moet nog geupdate worden<br>
     
     ...<br>
     ...<br>

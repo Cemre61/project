@@ -1,6 +1,6 @@
 <?php
 
-include 'views/functions.php';
+include 'logic/functions.php';
 // Gebruikersnaam, wachtwoord van de database etc ophalen
 require 'includes/config.php' ;
 // Laad de Smarty bibliotheek in
@@ -48,24 +48,24 @@ switch ($action) {
          break;
 
     case 'calendar':
-        include 'views/calendar.php';
+        include 'logic/calendar.php';
         $templateParser->display('footer.tpl');
         break;
     case 'contact':
 
-        include 'views/contact.php';
+        include 'logic/contact.php';
         $templateParser->display('footer.tpl');
         break;
 
     case 'about':
 
-        include 'views/about.php';
+        include 'logic/about.php';
         $templateParser->display('footer.tpl');
         break;
     
     default:
     
-    include 'views/home.php';
+    include 'logic/home.php';
     $templateParser->display('footer.tpl');  
 }
 ?>

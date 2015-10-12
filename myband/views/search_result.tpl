@@ -4,6 +4,7 @@
    <section>
     
     {foreach from = $data item = newsitem}
+       
         <article>
             <h1>{$newsitem.title}</h1>
         <img class="pictures" src="{$newsitem.image}"><br>
